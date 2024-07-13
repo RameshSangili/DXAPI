@@ -1,0 +1,38 @@
+/* SlideInModal.css */
+.slide-in-modal {
+    position: fixed;
+    top: 0;
+    left: -300px; /* adjust width as needed */
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.slide-in-modal.open {
+    left: 0;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.close-button {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}

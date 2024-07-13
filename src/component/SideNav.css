@@ -1,0 +1,25 @@
+/* SideNav.css */
+.side-nav {
+    background-color: #003366; /* Blue theme color */
+    color: white;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .side-nav a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .side-nav a:hover {
+    background-color: #00509e;
+  }
+  
